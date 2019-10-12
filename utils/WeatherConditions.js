@@ -5,6 +5,14 @@ export const weatherConditions = {
     subtitle: "Get a cup of coffee",
     icon: "weather-rainy"
   },
+
+  "weather is loading": {
+    color: "#005BEA",
+    title: "loading",
+    subtitle: "loading...",
+    icon: "loading...."
+  },
+
   Clear: {
     color: "#f7b733",
     title: "So Sunny",
@@ -22,6 +30,13 @@ export const weatherConditions = {
     title: "Clouds",
     subtitle: "Everywhere",
     icon: "weather-cloudy"
+  },
+
+  Smoke: {
+    color: "#005BEA",
+    title: "Smoky",
+    subtitle: "fuck this",
+    icon: "weather-rainy"
   },
 
   Snow: {

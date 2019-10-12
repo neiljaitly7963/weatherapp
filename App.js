@@ -6,7 +6,7 @@ export default class App extends React.Component {
   state = {
     isLoading: false,
     temperature: 0,
-    weatherCondition: null,
+    weatherCondition: "weather is loading",
     error: null
   };
 
@@ -40,6 +40,7 @@ export default class App extends React.Component {
 
   render() {
     const { isLoading, weatherCondition, temperature } = this.state;
+    console.log("App", weatherCondition);
     return (
       <View style={styles.container}>
         {isLoading ? (
